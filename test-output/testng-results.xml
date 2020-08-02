@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4082" started-at="2020-07-14T16:16:14Z" finished-at="2020-07-14T16:16:18Z">
+  <suite name="Default suite" duration-ms="3348" started-at="2020-08-01T11:57:44Z" finished-at="2020-08-01T11:57:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4082" started-at="2020-07-14T16:16:14Z" finished-at="2020-07-14T16:16:18Z">
-      <class name="ObjecttoJSONDemo">
-        <test-method status="PASS" signature="test2()[pri:0, instance:ObjecttoJSONDemo@27efef64]" name="test2" duration-ms="4044" started-at="2020-07-14T16:16:14Z" finished-at="2020-07-14T16:16:18Z">
+    <test name="Default test" duration-ms="3348" started-at="2020-08-01T11:57:44Z" finished-at="2020-08-01T11:57:47Z">
+      <class name="CreateJiraCookieAuth">
+        <test-method status="PASS" signature="generateCookie()[pri:1, instance:CreateJiraCookieAuth@7cd62f43]" name="generateCookie" duration-ms="3012" started-at="2020-08-01T11:57:44Z" finished-at="2020-08-01T11:57:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-      </class> <!-- ObjecttoJSONDemo -->
+        </test-method> <!-- generateCookie -->
+        <test-method status="PASS" signature="createtask()[pri:2, instance:CreateJiraCookieAuth@7cd62f43]" name="createtask" duration-ms="294" started-at="2020-08-01T11:57:47Z" depends-on-methods="CreateJiraCookieAuth.generateCookie" finished-at="2020-08-01T11:57:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createtask -->
+      </class> <!-- CreateJiraCookieAuth -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
